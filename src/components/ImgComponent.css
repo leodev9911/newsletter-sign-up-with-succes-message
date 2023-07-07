@@ -1,0 +1,17 @@
+.sign-up-image {
+    width: 100%;
+    height: 270px;
+}
+.sign-up-image-mobile-desktop {
+    display: none;
+}
+@media(min-width:800px) {
+    .sign-up-image-mobile {
+        display: none;
+    }
+    .sign-up-image-mobile-desktop {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+}

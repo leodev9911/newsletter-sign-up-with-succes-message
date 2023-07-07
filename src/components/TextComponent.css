@@ -1,0 +1,32 @@
+.title-div {
+    display: grid;
+    gap: 20px;
+    width: 90%;
+    margin: 0 auto;
+}
+.title-div h1 {
+    font-size: 3.6rem;
+}
+.title-div p {
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.title-list {
+    display: grid;
+    gap: 10px;
+    list-style: none;
+}
+.title-list {
+    display: grid;
+    gap: 16px;
+    list-style: none;
+}
+.title-list li {
+    display: flex;
+    align-items: start;
+    font-size: 1.6rem;
+}
+.title-list img {
+    width: 22px;
+    margin-right: 10px;
+}
